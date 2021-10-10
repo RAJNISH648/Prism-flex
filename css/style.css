@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+    background-color: #dadada;
+}
+/* header */
+header{
+   width: 100%;
+   background: linear-gradient( 90deg, rgba(83, 82, 92, 1) 0%, rgba(105, 26, 140, 1) 100%, rgba(8, 28, 133, 1) 100%, rgba(0, 212, 255, 1) 100%);
+   background-position: center;
+   background-size: cover;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8rem 0;
+}
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.top .left{
+    width: 47%;
+    text-align: left;
+}
+.top .right{
+    width: 47%;
+    text-align: left;
+}
+.line{
+    margin: 0 auto;
+    border: none;
+    border: 1px solid grey;
+}
+.left h1{
+    color: #fff;
+    font-size: 2.6rem;
+}
+.right p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    color: darkgrey;
+}
+.right button{
+    width: 9rem;
+    height: 2.2rem;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-color: rgb(7, 199, 151);
+    border: 0;
+    border-radius: 4rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+/* two-section */
+.two-section{
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+}
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+.sec .left-2{
+    width: 47%;
+    text-align: left;
+}
+.sec .right-2{
+    width: 47%;
+}
+.left-2 h2{
+    font-size: 2rem;
+}
+.left-2 p{
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    margin-top: 1.6rem;
+}
+.left-2 button{
+    width: 9rem;
+    height: 2.2rem;
+    color: #000;
+    font-family: 'Philosopher', sans-serif;
+    background: none;
+    border: 2px solid #dadada;
+    border-radius: 4rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 2.6rem;
+}
+.right-2 p{
+    font-size: 1.3rem;
+    line-height: 4rem;
+    text-align: left;
+}
+.right-2 span{
+    color:  rgb(7, 199, 151);
+}
+/* image-section */
+.image-section{
+    width: 100%;
+    padding: 3rem 0;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    background-color: #fff;
+    border-bottom: 1px solid grey;
+}
+.image-section .text{
+    margin: 5rem 0 0 4rem;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.box .text{
+    text-align: left;
+}
+.box .text h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.box .text p{
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+    color: grey;
+}
+.box .text .my-button{
+    width: 9rem;
+    height: 2.2rem;
+    color: #000;
+    font-family: 'Philosopher', sans-serif;
+    background: none;
+    border: 2px solid #dadada;
+    border-radius: 4rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+.single{
+    text-align: center;
+}
+.single .single-button{
+    width: 9rem;
+    height: 2.2rem;
+    color: #000;
+    font-family: 'Philosopher', sans-serif;
+    background: none;
+    border: 2px solid darkgrey;
+    border-radius: 4rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+/* last-section */
+.last-section{
+    width: 100%;
+    background-color: #fff;
+    padding: 5rem 0;
+}
+.last-section .form-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left-3{
+    text-align: left;
+}
+.left-3{
+    width: 50%;
+}
+.right-3{
+    width: 45%;
+}
+.left-3 h2{
+    font-size: 2rem;
+}
+.left-3 p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    line-height: 1.8rem;
+    color: gray;
+}
+.left-3 form{
+    margin-top: 2rem;
+}
+.left-3 input{
+    width: 45%;
+    padding: 0.8rem 0  0.8rem  0.8rem;
+}
+.left-3 textarea{
+    width: 90%;
+   margin-top: 2rem;
+   padding: 1rem 0 0 1rem;
+}
+.left-3 button{
+    width: 9rem;
+    height: 2.2rem;
+    color: #000;
+    font-family: 'Philosopher', sans-serif;
+    background: none;
+    border: 2px solid #dadada;
+    border-radius: 4rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.right-3{
+    text-align: left;
+}
+.right-3 p{
+    color: grey;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+}
+.right-3 span{
+    color: rgb(7, 199, 151);
+    font-size: 1.3rem;
+}
+
+/* foter */
+.footer{
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid grey;
+    padding: 3rem 0;
+    color: grey;
+}
+.footer .copyright p{
+    font-size: 1.2rem;
+}
+
+/* media queries starts */
+
+@media only screen and (max-width:1030px){
+    .left h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .image-section .text{
+        margin: 2rem 0 0 4rem;
+    }
+}
+
+@media only screen and (max-width:850px){
+    .top .left{
+        width: 100%;
+        text-align: center;
+        border-right: none;
+    }
+    .line{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .top .right{
+        width: 100%;
+        text-align: center;
+    }
+    .left h1{
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    .right p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-top: 2rem;
+    }
+    .sec .left-2{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .sec .right-2{
+        width: 100%;
+    }
+    .right-2 p{
+        text-align: center;
+    }
+    .box{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .image{
+        margin: 0 auto;
+    }
+    .box .text{
+        text-align: center;
+    }
+    .box .text .my-button{
+      margin-bottom: 2rem;
+    }
+    .left-3{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .right-3{
+        width: 100%;
+        margin: 2rem 0 2rem 3rem;
+    }
+    .image-section .text{
+        margin: 5rem 0 0 0;
+    }
+    .right-3 p{
+        color: grey;
+        line-height: 2.5rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .right-3 span{
+        color: rgb(7, 199, 151);
+        font-size: 1.3rem;
+    }
+    .footer .copyright p{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+}
+
+
+
+
